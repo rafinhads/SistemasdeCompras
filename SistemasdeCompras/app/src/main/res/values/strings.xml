@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sistemas de Compras</string>
+    <string name="escolha_o_seu_produto">Escolha os seus produtos:</string>
+    <string name="Macarrao_r_8_79">Macarrão Pct.(R$8.79)</string>
+    <string name="Extrato_r_5_00">Extrato de Tomate (R$ 5.00)</string>
+    <string name="carne_r_50_00">Carne Kg(R$34,00)</string>
+    <string name="Queijo_o_r_12_00">Queijo (R$12,00)</string>
+    <string name="Calabresa_r_35_59">Calabresa (R$35,59)</string>
+    <string name="total_de_compras">Total das Compras</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02689C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/escolha_o_seu_produto"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chKMacarrao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="138dp"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/Macarrao_r_8_79"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/chkExtrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="185dp"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/Extrato_r_5_00"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/chkcarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="235dp"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/carne_r_50_00"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/chKQueijo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="284dp"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/Queijo_o_r_12_00"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/chKCalabresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="332dp"
+        android:buttonTint="#FFFFFF"
+        android:text="@string/Calabresa_r_35_59"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginBottom="237dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/total_de_compras"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
